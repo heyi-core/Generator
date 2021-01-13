@@ -1,0 +1,189 @@
+// cover some heyi-ui styles
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 165px;
+      height: 130px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+// 统一处理单选框样式
+//.el-radio {
+//  height: 25px;
+//  line-height: 25px !important;
+//  box-sizing: border-box;
+//  padding: 0 10px;
+//  border-radius: 4px;
+//  min-width: 50px;
+//  text-align: center;
+//  .el-radio__input {
+//    display: none;
+//  }
+//  .el-radio__label {
+//    padding-left: 0;
+//    font-size: 14px;
+//    color: #666;
+//  }
+//  &.is-checked {
+//    background-color: #506dbb;
+//    .el-radio__input.is-checked + .el-radio__label {
+//      color: #fff !important;
+//    }
+//  }
+//}
+
+// 统一处理多选框样式
+//.el-checkbox {
+//  height: 25px;
+//  line-height: 25px;
+//  box-sizing: border-box;
+//  padding: 0 10px;
+//  border-radius: 4px;
+//  min-width: 50px;
+//  text-align: center;
+//  .el-checkbox__input {
+//    display: none;
+//  }
+//  .el-checkbox__label {
+//    padding-left: 0;
+//    font-size: 14px;
+//    color: #666;
+//  }
+//  &.is-checked {
+//    background-color: #f7b538;
+//    .el-checkbox__input.is-checked + .el-checkbox__label {
+//      color: #fff !important;
+//    }
+//  }
+//}
+
+// 弹窗下方按钮位置
+.dialog-footer {
+  text-align: center;
+}
+
+// 分页编边距
+.el-pagination {
+  margin: 30px;
+}
+/*统一处理顶部筛选样式*/
+.top-operation {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 25px;
+  text-align: right;
+  font-size: 0;
+  .item {
+    padding: 5px 10px;
+    display: inline-block;
+    &.add{
+      position: absolute;
+      left: 0;
+      top: 0;
+      padding-left: 0;
+      .el-button {
+        width: 140px;
+      }
+    }
+    &.add-user{
+      position: absolute;
+      left: 150px;
+      top: 0;
+      padding-left: 0;
+      .el-button {
+        width: 140px;
+      }
+    }
+    &:last-of-type{
+      padding-right: 0;
+    }
+    .el-input {
+      width: 160px;
+    }
+    .select-btn {
+      background-color: #f7b538;
+      border-color: #f7b538;
+      color: #fff;
+    }
+  }
+}
+@media (max-width: 1880px) {
+  .top-operation {
+    text-align: left;
+    .item {
+      &.add{
+        position: unset;
+      }
+      &.add-user{
+        position: unset;
+      }
+    }
+  }
+}
+
+// 解决按钮个数不定，导致的换行问题
+.table-list.el-row {
+  display: flex;
+  flex-wrap: wrap;
+  [class*='el-col-'] {
+    display: flex;
+    flex-direction: column;
+    .heyi-table-line-box {
+      min-height: 100%;
+    }
+  }
+}
+// 解决input按钮不居中问题
+.el-input__suffix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// 弹窗顶部样式
+.el-dialog__header {
+  background-color: #20222A;
+  .el-dialog__title {
+    color: #fff;
+  }
+  .el-dialog__headerbtn {
+    .el-icon {
+      color: #fff;
+    }
+  }
+}

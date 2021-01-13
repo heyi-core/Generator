@@ -1,0 +1,24 @@
+//顶部添加按钮样式
+.el-button--primary{
+  padding: 10px 15px !important;
+}
+//顶部其他筛选样式
+.list-screening-search{
+  padding: 5px 0px 20px 0px !important;
+  display: flex !important;
+  align-items: center;
+}
+.el-button.query-btn.el-button--primary{
+  width:70px !important;
+  line-height: 1px;
+}
+//
+.el-dialog__header{
+  height: 54px !important;
+}
+video{
+  width: auto !important;
+}
+.el-table .cell{
+  line-height: 16px !important;
+}

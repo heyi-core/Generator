@@ -24,7 +24,7 @@ public class Project {
     /*作者*/
     private String author = "张小龙";
     /*数据库*/
-    private String jdbcUrl = "jdbc:mysql://192.168.1.125:3306/shujukmingcheng?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai";
+    private String jdbcUrl = "jdbc:mysql://192.168.1.1:3306/shujukmingcheng?useUnicode=true&characterEncoding=UTF-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai";
     private String jdbcUsername = "shujukmingcheng";
     private String jdbcPassword = "shujukmingcheng";
     private String port = "8080";
@@ -56,7 +56,7 @@ public class Project {
     /*system端口号*/
     private String systemPort = "8081";
     /*system后台服务器地址*/
-    private String portHost = "http://192.168.1.125";
+    private String portHost = "http://192.168.1.1";
     /*开启oss打包上传功能*/
     private Boolean ossBuild = false;
     /*开启系统管理模块*/

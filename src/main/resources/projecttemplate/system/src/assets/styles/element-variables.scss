@@ -1,0 +1,6 @@
+/* 改变主题色变量 */
+$--color-primary: #F7B538;
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~heyi-ui/lib/theme-chalk/fonts';
+
+@import "~heyi-ui/packages/theme-chalk/src/index";

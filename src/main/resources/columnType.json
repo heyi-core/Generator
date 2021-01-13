@@ -1,0 +1,140 @@
+{
+  "INTEGER": {
+    "javaType": "Integer",
+    "importType": "",
+    "jdbcType": "INTEGER",
+    "esType": "FieldType.Long"
+  },
+  "INT": {
+    "javaType": "Integer",
+    "importType": "",
+    "jdbcType": "INTEGER",
+    "esType": "FieldType.Long"
+  },
+  "LONG": {
+    "javaType": "Long",
+    "importType": "",
+    "jdbcType": "BIGINT",
+    "esType": "FieldType.Long"
+  },
+  "BIGINT": {
+    "javaType": "Long",
+    "importType": "",
+    "jdbcType": "BIGINT",
+    "esType": "FieldType.Long"
+  },
+  "FLOAT": {
+    "javaType": "float",
+    "importType": "",
+    "jdbcType": "REAL",
+    "esType": "FieldType.Float"
+  },
+  "DOUBLE": {
+    "javaType": "Double",
+    "importType": "",
+    "jdbcType": "DOUBLE",
+    "esType": "FieldType.Float"
+  },
+  "DOUBLE PRECISION": {
+    "javaType": "Double",
+    "importType": "",
+    "jdbcType": "DOUBLE",
+    "esType": "FieldType.Float"
+  },
+  "DECIMAL": {
+    "javaType": "BigDecimal",
+    "importType": "import java.math.BigDecimal;",
+    "jdbcType": "DECIMAL",
+    "esType": "FieldType.Float"
+  },
+  "NUMERIC": {
+    "importType": "import java.math.BigDecimal;",
+    "javaType": "BigDecimal",
+    "jdbcType": "DECIMAL",
+    "esType": "FieldType.Float"
+  },
+  "VARCHAR": {
+    "javaType": "String",
+    "importType": "",
+    "jdbcType": "VARCHAR",
+    "esType": "FieldType.Text"
+  },
+  "VARCHAR2": {
+    "javaType": "String",
+    "importType": "",
+    "jdbcType": "VARCHAR",
+    "esType": "FieldType.Text"
+  },
+  "CHAR": {
+    "javaType": "String",
+    "importType": "",
+    "jdbcType": "VARCHAR",
+    "esType": "FieldType.Text"
+  },
+  "NVARCHAR": {
+    "javaType": "String",
+    "importType": "",
+    "jdbcType": "VARCHAR",
+    "esType": "FieldType.Text"
+  },
+  "NCHAR": {
+    "javaType": "String",
+    "importType": "",
+    "jdbcType": "VARCHAR",
+    "esType": "FieldType.Text"
+  },
+  "TEXT": {
+    "javaType": "String",
+    "importType": "",
+    "jdbcType": "VARCHAR",
+    "esType": "FieldType.Text"
+  },
+  "MEDIUMTEXT": {
+    "javaType": "String",
+    "importType": "",
+    "jdbcType": "VARCHAR",
+    "esType": "FieldType.Text"
+  },
+  "DATETIME": {
+    "javaType": "Date",
+    "importType": "import java.util.Date;",
+    "jdbcType": "TIMESTAMP",
+    "esType": "FieldType.Long"
+  },
+  "DATE": {
+    "javaType": "Date",
+    "importType": "import java.util.Date;",
+    "jdbcType": "TIMESTAMP",
+    "esType": "FieldType.Long"
+  },
+  "TIMESTAMP(6)": {
+    "javaType": "Date",
+    "importType": "import java.util.Date;",
+    "jdbcType": "TIMESTAMP",
+    "esType": "FieldType.Long"
+  },
+  "TIMESTAMP": {
+    "javaType": "Date",
+    "importType": "import java.util.Date;",
+    "jdbcType": "TIMESTAMP",
+    "esType": "FieldType.Long"
+  },
+  "CLOB": {
+    "javaType": "Clob",
+    "importType": "",
+    "jdbcType": "CLOB",
+    "esType": "FieldType.Float"
+  },
+  "TINYINT": {
+    "javaType": "Integer",
+    "importType": "",
+    "jdbcType": "TINYINT",
+    "esType": "FieldType.Long"
+  },
+  "BIT": {
+    "javaType": "Boolean",
+    "importType": "",
+    "jdbcType": "BIT",
+    "esType": "FieldType.Long"
+  }
+}

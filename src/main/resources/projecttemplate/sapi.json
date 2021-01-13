@@ -1,0 +1,524 @@
+{
+  "sapi": {
+    "Dockerfile": {
+      "type": "file",
+      "rename": "",
+      "delete": "false",
+      "iterate": false
+    },
+    "type": "folder",
+    ".gitignore": {
+      "type": "file",
+      "rename": "",
+      "delete": "false",
+      "iterate": false
+    },
+    "rename": "",
+    "src": {
+      "type": "folder",
+      "rename": "",
+      "main": {
+        "type": "folder",
+        "java": {
+          "com": {
+            "type": "folder",
+            "rename": "",
+            "delete": "false",
+            "heyi": {
+              "type": "folder",
+              "rename": "",
+              "sapi": {
+                "baseutil": {
+                  "type": "folder",
+                  "rename": "",
+                  "DownLoadUtil.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "IpUtil.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "PasswordUtil.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "delete": "false",
+                  "SnowFlakeId.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "WXUtils.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "${project.wxPay?string('false','true')}",
+                    "iterate": false
+                  },
+                  "LogUtil.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "${project.log?string('false','true')}",
+                    "iterate": false
+                  },
+                  "AlipayUitl.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "iterate": false
+                },
+                "type": "folder",
+                "baseplatform": {
+                  "type": "folder",
+                  "rename": "",
+                  "delete": "false",
+                  "alipay": {
+                    "type": "folder",
+                    "rename": "",
+                    "delete": "${project.aliPay?string('false','true')}",
+                    "AliPayController.java": {
+                      "type": "file",
+                      "rename": "",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "AliPayService.java": {
+                      "type": "file",
+                      "rename": "",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "iterate": false
+                  },
+                  "image": {
+                    "type": "folder",
+                    "rename": "",
+                    "delete": "${project.oss?string('false','true')}",
+                    "ImageController.java": {
+                      "type": "file",
+                      "rename": "",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "ImageService.java": {
+                      "type": "file",
+                      "rename": "",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "iterate": false
+                  },
+                  "wxpay": {
+                    "type": "folder",
+                    "rename": "",
+                    "delete": "${project.wxPay?string('false','true')}",
+                    "WxPayController.java": {
+                      "type": "file",
+                      "rename": "",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "WxPaySystemService.java": {
+                      "type": "file",
+                      "rename": "",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "iterate": false
+                  },
+                  "login": {
+                    "LoginController.java": {
+                      "rename": "",
+                      "type": "file",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "rename": "",
+                    "LoginService.java": {
+                      "rename": "",
+                      "type": "file",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "iterate": false
+                },
+                "baseconfig": {
+                  "type": "folder",
+                  "rename": "",
+                  "DecryptionConfig.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "${project.encrypt?string('false','true')}",
+                    "iterate": false
+                  },
+                  "FastjsonConfig.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "ApiConfig.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "Swagger2Config.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "EncryptionConfig.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "${project.encrypt?string('false','true')}",
+                    "iterate": false
+                  },
+                  "ExceptionConfig.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "delete": "false",
+                  "WxPayConfiguration.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "${project.wxPay?string('false','true')}",
+                    "iterate": false
+                  },
+                  "iterate": false
+                },
+                "rename": "${project.dataBase}",
+                "SapiApplication.java": {
+                  "type": "file",
+                  "rename": "",
+                  "delete": "false",
+                  "iterate": false
+                },
+                "baseannotation": {
+                  "NoRepeat.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "type": "folder",
+                  "NoRepeatImpl.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "rename": "",
+                  "delete": "false",
+                  "iterate": false
+                },
+                "basecommon": {
+                  "BaseException.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "type": "folder",
+                  "BaseController.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "rename": "",
+                  "BaseResponse.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "BaseModel.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "BaseConstant.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "delete": "false",
+                  "iterate": false
+                },
+                "baseservice": {
+                  "type": "folder",
+                  "rename": "",
+                  "delete": "false",
+                  "RabbitmqService.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "${project.rabbitmq?string('false','true')}",
+                    "iterate": false
+                  },
+                  "iterate": false,
+                  "RedisService.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "false",
+                    "iterate": false
+                  },
+                  "SendSmsService.java": {
+                    "type": "file",
+                    "rename": "",
+                    "delete": "${project.sms?string('false','true')}",
+                    "iterate": false
+                  }
+                },
+                "delete": "false",
+                "platform": {
+                  "type": "folder",
+                  "rename": "",
+                  "delete": "false",
+                  "iterate": false,
+                  "templete": {
+                    "type": "folder",
+                    "rename": "${r'${'}table.tableNameLower}",
+                    "delete": "false",
+                    ".java.ftl": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}.java",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "Controller.java.ftl": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}Controller.java",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "Dao.java.ftl": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}Dao.java",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "Service.java.ftl": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}Service.java",
+                      "delete": "false",
+                      "iterate": false
+                    },
+                    "iterate": true
+                  },
+                  "nativesearch": {
+                    "type": "folder",
+                    "rename": "${r'${'}table.tableNameLower}4es",
+                    "delete": "${r'${'}table.haveLocation?string('false','true')}",
+                    "NativeSearch.java": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}4es.java",
+                      "delete": "${r'${'}table.haveLocation?string('false','true')}",
+                      "iterate": false
+                    },
+                    "NativeSearchController.java": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}4esController.java",
+                      "delete": "${r'${'}table.haveLocation?string('false','true')}",
+                      "iterate": false
+                    },
+                    "NativeSearchDao.java": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}4esDao.java",
+                      "delete": "${r'${'}table.haveLocation?string('false','true')}",
+                      "iterate": false
+                    },
+                    "NativeSearchService.java": {
+                      "type": "file",
+                      "rename": "${r'${'}table.tableNameUpperCamel}4esService.java",
+                      "delete": "${r'${'}table.haveLocation?string('false','true')}",
+                      "iterate": false
+                    },
+                    "iterate": true
+                  }
+                },
+                "iterate": false
+              },
+              "delete": "false",
+              "iterate": false
+            },
+            "iterate": false
+          },
+          "type": "folder",
+          "rename": "",
+          "delete": "false",
+          "iterate": false
+        },
+        "rename": "",
+        "resources_ali": {
+          "type": "folder",
+          "rename": "",
+          "alipay.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "${project.aliPay?string('false','true')}",
+            "iterate": false
+          },
+          "wxpay.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "${project.wxPay?string('false','true')}",
+            "iterate": false
+          },
+          "oss.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "${project.oss?string('false','true')}",
+            "iterate": false
+          },
+          "logback-spring.xml": {
+            "type": "file",
+            "rename": "",
+            "delete": "false",
+            "iterate": false
+          },
+          "delete": "false",
+          "application.yml": {
+            "type": "file",
+            "rename": "",
+            "delete": "false",
+            "iterate": false
+          },
+          "secret.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "false",
+            "iterate": false
+          },
+          "iterate": false
+        },
+        "resources": {
+          "wxcerts": {
+            "type": "folder",
+            "rename": "",
+            "apiclient_cert.p12": {
+              "type": "file",
+              "rename": "",
+              "delete": "false",
+              "iterate": false
+            },
+            "delete": "${project.wxPay?string('false','true')}",
+            "iterate": false
+          },
+          "wxpay.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "${project.wxPay?string('false','true')}",
+            "iterate": false
+          },
+          "oss.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "${project.oss?string('false','true')}",
+            "iterate": false
+          },
+          "delete": "false",
+          "application.yml": {
+            "type": "file",
+            "rename": "",
+            "delete": "false",
+            "iterate": false
+          },
+          "sms.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "${project.sms?string('false','true')}",
+            "iterate": false
+          },
+          "type": "folder",
+          "alicerts": {
+            "alipayRootCertForSapi.crt": {
+              "type": "file",
+              "rename": "",
+              "delete": "false",
+              "iterate": false
+            },
+            "type": "folder",
+            "appCertPublicKeyForSapi.crt": {
+              "type": "file",
+              "rename": "",
+              "delete": "false",
+              "iterate": false
+            },
+            "rename": "",
+            "alipayCertPublicKeyForSapi.crt": {
+              "type": "file",
+              "rename": "",
+              "delete": "false",
+              "iterate": false
+            },
+            "delete": "${project.aliPay?string('false','true')}",
+            "iterate": false
+          },
+          "rename": "",
+          "alipay.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "${project.aliPay?string('false','true')}",
+            "iterate": false
+          },
+          "logback-spring.xml": {
+            "type": "file",
+            "rename": "",
+            "delete": "false",
+            "iterate": false
+          },
+          "secret.properties": {
+            "type": "file",
+            "rename": "",
+            "delete": "false",
+            "iterate": false
+          },
+          "mappers": {
+            "type": "folder",
+            "rename": "",
+            "delete": "false",
+            "iterate": false,
+            "my.ftl": {
+              "type": "file",
+              "rename": "${r'${'}table.tableNameUpperCamel}Mapper.xml",
+              "delete": "false",
+              "iterate": true
+            }
+          },
+          "iterate": false
+        },
+        "delete": "false",
+        "iterate": false
+      },
+      "delete": "false",
+      "iterate": false
+    },
+    "delete": "false",
+    "pom.xml": {
+      "type": "file",
+      "rename": "",
+      "delete": "false",
+      "iterate": false
+    },
+    "iterate": false
+  }
+}

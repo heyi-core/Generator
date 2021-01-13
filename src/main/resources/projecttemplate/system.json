@@ -1,0 +1,1352 @@
+{
+    "system": {
+        "server": {
+            "index.js": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "rename": "",
+            "type": "folder",
+            "delete": "false",
+            "iterate": false
+        },
+        ".gitignore": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "vue.config.js": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "type": "folder",
+        "delete": "false",
+        ".postcssrc.js": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        ".env.stage": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "public": {
+            "rename": "",
+            "index.html": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "tinymce": {
+                "skins": {
+                    "ui": {
+                        "rename": "",
+                        "oxide": {
+                            "content.mobile.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "skin.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "type": "folder",
+                            "delete": "false",
+                            "skin.mobile.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "skin.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "rename": "",
+                            "fonts": {
+                                "tinymce-mobile.woff": {
+                                    "rename": "",
+                                    "type": "file",
+                                    "delete": "false",
+                                    "iterate": false
+                                },
+                                "rename": "",
+                                "type": "folder",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "skin.mobile.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.inline.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.inline.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "iterate": false,
+                            "content.mobile.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            }
+                        },
+                        "oxide-dark": {
+                            "content.mobile.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "skin.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "type": "folder",
+                            "delete": "false",
+                            "skin.mobile.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "skin.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "rename": "",
+                            "fonts": {
+                                "tinymce-mobile.woff": {
+                                    "rename": "",
+                                    "type": "file",
+                                    "delete": "false",
+                                    "iterate": false
+                                },
+                                "rename": "",
+                                "type": "folder",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "skin.mobile.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.inline.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "content.inline.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "iterate": false,
+                            "content.mobile.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            }
+                        },
+                        "type": "folder",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "content": {
+                        "default": {
+                            "content.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "rename": "",
+                            "content.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "type": "folder",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "document": {
+                            "content.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "rename": "",
+                            "content.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "type": "folder",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "writer": {
+                            "content.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "rename": "",
+                            "content.min.css": {
+                                "rename": "",
+                                "type": "file",
+                                "delete": "false",
+                                "iterate": false
+                            },
+                            "type": "folder",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "type": "folder",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "rename": "",
+                "langs": {
+                    "zh_CN.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "type": "folder",
+                "delete": "false",
+                "iterate": false
+            },
+            "favicon.ico": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "type": "folder",
+            "delete": "false",
+            "iterate": false
+        },
+        ".eslintrc.js": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "jest.config.js": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        ".editorconfig": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "iterate": false,
+        "src": {
+            "components": {
+                "RoleTree": {
+                    "rename": "",
+                    "RoleTree.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "ListScreeningSearch": {
+                    "rename": "",
+                    "type": "folder",
+                    "ListScreeningSearch.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "delete": "false",
+                    "iterate": false
+                },
+                "RoleTreeItem": {
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "RoleTreeItem.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "RoleSysUser": {
+                    "rename": "",
+                    "RoleSysUser.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "globalUploader": {
+                    "rename": "",
+                    "globalUploader.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "Breadcrumb": {
+                    "rename": "",
+                    "index.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "UploadImages": {
+                    "cropper.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "UploadImages.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "type": "folder",
+                "GaudMap": {
+                    "rename": "",
+                    "index.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "delete": "false",
+                "Hamburger": {
+                    "rename": "",
+                    "index.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "SvgIcon": {
+                    "rename": "",
+                    "index.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                "PageListSearch": {
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "PageListSearch.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "UploadVideo": {
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "UploadVideo.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "TinymceEdit": {
+                    "rename": "",
+                    "TinymceEdit.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "iterate": false
+            },
+            "store": {
+                "index.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "getters.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                "type": "folder",
+                "delete": "false",
+                "modules": {
+                    "type": "folder",
+                    "prod.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "delete": "false",
+                    "dictionaries.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "${project.openDictionary?string('false','true')}",
+                        "iterate": false
+                    },
+                    "permission.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "settings.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "app.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "roles.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "user.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "${project.login?string('false','true')}",
+                        "iterate": false
+                    },
+                    "bus.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "config.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "iterate": false
+            },
+            "type": "folder",
+            "delete": "false",
+            "App.vue": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "permission.js": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "layout": {
+                "mixin": {
+                    "ResizeHandler.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "components": {
+                    "index.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "Navbar.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "Sidebar": {
+                        "Logo.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "Item.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "Link.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "SidebarItem.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "index.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "FixiOSBug.js": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "type": "folder",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "AppMain.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "rename": "",
+                "index.vue": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "type": "folder",
+                "delete": "false",
+                "iterate": false
+            },
+            "settings.js": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "router": {
+                "index.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                "type": "folder",
+                "delete": "false",
+                "iterate": false
+            },
+            "assets": {
+                "images": {
+                    "product": {
+                        "categary_child.png": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "categary_i.png": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "type": "folder",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "home_image": {
+                        "logo01.svg": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "type": "folder",
+                        "logoyuan.svg": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "404_images": {
+                        "404_cloud.png": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "404.png": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "type": "folder",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "login_image": {
+                        "rename": "",
+                        "login_title.png": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "type": "folder",
+                        "system_login.png": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "dashboard": {
+                        "rename": "",
+                        "type": "folder",
+                        "delete": "false",
+                        "dashboard.png": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "iconfont": {
+                    "rename": "",
+                    "fonts": {
+                        "iconfont.woff": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "iconfont.eot": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "iconfont.js": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "iconfont.woff2": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "iconfont.ttf": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "iconfont.svg": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "type": "folder",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "icon.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                "js": {
+                    "pca-code.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "shops.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "resion.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "backList.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "trademarkCategory.json": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "tradType.json": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "financeUserList.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "JDCategory.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "iterate": false
+                },
+                "styles": {
+                    "element-ui.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "sidebar.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "transition.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "variables.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "mixin.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "topstyle.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "index.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "element-variables.scss": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "delete": "false",
+                    "iterate": false
+                },
+                "type": "folder",
+                "delete": "false",
+                "iterate": false
+            },
+            "common": {
+                "index.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "MyTips": {
+                    "tips.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "index.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                "type": "folder",
+                "delete": "false",
+                "iterate": false
+            },
+            "rename": "",
+            "utils": {
+                "scroll-to.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "type": "folder",
+                "delete": "false",
+                "codeToArea.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "index.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                "get-page-title.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "auth.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "date-util.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "request.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "btn-permission.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "validate.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "iterate": false
+            },
+            "main.js": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "api": {
+                "index.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "secretutil.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                "type": "folder",
+                "delete": "false",
+                "request.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "api.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "btnRoules.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "iterate": false
+            },
+            "views": {
+                "404.vue": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "system": {
+                    "rename": "",
+                    "type": "folder",
+                    "delete": "${(project.openSystem||project.openDictionary)?string('false','true')}",
+                    "iterate": false,
+                    "roles": {
+                        "sysrole.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rolesSet.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "OperationRoles.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "ApiRoles.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "type": "folder",
+                        "delete": "${project.openSystem?string('false','true')}",
+                        "iterate": false
+                    },
+                    "user": {
+                        "rename": "",
+                        "resignation.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "leaveSysUser.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "type": "folder",
+                        "userRole.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "delete": "${project.openSystem?string('false','true')}",
+                        "sysuser.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "iterate": false
+                    },
+                    "dictionaries": {
+                        "sysDictionaries.vue": {
+                            "rename": "",
+                            "type": "file",
+                            "delete": "false",
+                            "iterate": false
+                        },
+                        "rename": "",
+                        "type": "folder",
+                        "delete": "${project.openDictionary?string('false','true')}",
+                        "iterate": false
+                    }
+                },
+                "templete": {
+                    "rename": "${r'${'}table.tableNameLowerCamel}",
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": true,
+                    "detail.vue.ftl": {
+                        "rename": "${r'${'}table.tableNameUpperCamel}Detail.vue",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "list.vue.ftl": {
+                        "rename": "${r'${'}table.tableNameUpperCamel}.vue",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    }
+                },
+                "rename": "",
+                "type": "folder",
+                "login": {
+                    "rename": "",
+                    "index.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "delete": "false",
+                "dashboard": {
+                    "rename": "",
+                    "index.vue": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "iterate": false
+            },
+            "iterate": false
+        },
+        ".npmrc": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "README.md": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "Dockerfile": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "babel.config.js": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        ".env.development": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "tests": {
+            "unit": {
+                "components": {
+                    "rename": "",
+                    "SvgIcon.spec.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "Hamburger.spec.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "Breadcrumb.spec.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "rename": "",
+                ".eslintrc.js": {
+                    "rename": "",
+                    "type": "file",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "utils": {
+                    "validate.spec.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "rename": "",
+                    "parseTime.spec.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "formatTime.spec.js": {
+                        "rename": "",
+                        "type": "file",
+                        "delete": "false",
+                        "iterate": false
+                    },
+                    "type": "folder",
+                    "delete": "false",
+                    "iterate": false
+                },
+                "type": "folder",
+                "delete": "false",
+                "iterate": false
+            },
+            "rename": "",
+            "type": "folder",
+            "delete": "false",
+            "iterate": false
+        },
+        "rename": "",
+        "build": {
+            "index.js": {
+                "rename": "",
+                "type": "file",
+                "delete": "false",
+                "iterate": false
+            },
+            "rename": "",
+            "type": "folder",
+            "delete": "false",
+            "iterate": false
+        },
+        "package.json": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        ".env.production": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        ".eslintignore": {
+            "rename": "",
+            "type": "file",
+            "delete": "false",
+            "iterate": false
+        },
+        "oss.js": {
+            "rename": "",
+            "type": "file",
+            "delete": "${project.ossBuild?string('false','true')}",
+            "iterate": false
+        }
+    }
+}
