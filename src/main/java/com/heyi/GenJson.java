@@ -12,7 +12,8 @@ import java.util.HashMap;
 public class GenJson {
     public static void main(String[] args) throws IOException {
         HashMap<String, Object> fileMap = new HashMap<String, Object>();
-        String target = "./src/main/resources/projecttemplate/im";
+//        修改这个名称
+        String target = "./src/main/resources/projecttemplate/sapi";
         File targetf = new File(target);
         dir2map(targetf, fileMap);
         String jsonf=targetf.getParentFile().getPath() + "/" + targetf.getName() + ".json";
